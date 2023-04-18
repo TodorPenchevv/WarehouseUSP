@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4D3317C-EAEB-C4BD-57F5-3E1FC7AAFF46" name="Transactions">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-28 14:31:11 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="657206DC-42FE-5EA6-F855-F6C3CBD96C72">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-28 14:32:59 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction" id="A700B829-EC08-02DB-767E-5969AC9F24FB">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-28 14:32:59 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="626085CE-FB83-383B-71F5-50F2760C11B6" name="Transactions_PK">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-28 14:32:59 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="657206DC-42FE-5EA6-F855-F6C3CBD96C72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

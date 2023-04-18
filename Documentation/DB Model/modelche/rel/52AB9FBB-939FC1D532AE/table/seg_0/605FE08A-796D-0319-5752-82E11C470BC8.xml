@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="605FE08A-796D-0319-5752-82E11C470BC8" name="Invoice_Good">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 13:17:31 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="invoice_id" id="B535DBE7-4396-6349-4BDC-7AAB78E6F1DB">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 13:19:01 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59A581C5-CF8D-F481-B1FB-DFF5A5C449DD" referredColumn="74943D1A-2197-77C2-A42D-D5CD70C3C70B"/>
+</associations>
+</Column>
+<Column name="good_id" id="EA62E061-01D8-57EB-BC2D-70FA58A4E0E3">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 13:19:01 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4E93A62-6031-F08B-E6C7-86DF604A7124" referredColumn="C19E696C-BA0E-8962-E6A0-78F4D977939E"/>
+</associations>
+</Column>
+<Column name="good_quantity" id="D95EFBCC-F3CF-F2B0-BBE3-ED67079D308E">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 13:19:01 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="good_price" id="E17E6F75-C70C-2654-6066-CDE0DA68562F">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 13:19:01 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id" id="D2CE9EBB-4C1A-ECE8-79BE-05189D9637E0">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-11-03 12:25:46 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46A3BB96-1BC8-E365-9EF2-6409A4F00C65" name="Invoice_Good_PK">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-11-03 12:25:46 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2CE9EBB-4C1A-ECE8-79BE-05189D9637E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2DAE3E8-3A1E-54E4-8B64-18635FEFCB59" name="Invoice_Good_Goods_FK">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 13:25:02 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA62E061-01D8-57EB-BC2D-70FA58A4E0E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28023A1A-9D29-D2AA-5622-16C3BF5CEB6A" name="Invoice_Good_Invoices_FK">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 13:25:27 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B535DBE7-4396-6349-4BDC-7AAB78E6F1DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

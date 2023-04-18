@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="B1BC468C-16F4-34E3-13EB-0693354CA45C">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 12:19:54 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelche" id="7C10799C-70C5-8CD7-B256-DDBF3C0E9991" version="3.5">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 12:19:53 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7C10799C-70C5-8CD7-B256-DDBF3C0E9991</designId>
+</OSDM_Design>

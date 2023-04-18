@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="97D6F9D3-DE57-CE6A-CC20-665540013DB6" mainViewID="F2FE6FF8-7754-CF77-A2E7-6A07D56790E1">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 12:19:53 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

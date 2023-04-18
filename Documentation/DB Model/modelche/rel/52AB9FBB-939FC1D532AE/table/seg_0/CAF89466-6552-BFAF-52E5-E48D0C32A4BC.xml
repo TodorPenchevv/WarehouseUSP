@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CAF89466-6552-BFAF-52E5-E48D0C32A4BC" name="Users">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 12:21:37 UTC</createdTime>
+<generatorID>014165C9-0A01-B3FC-B37F-57ACD852A704</generatorID>
+<ownerDesignName>modelche</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8F7E3AB9-26FF-8913-F9A8-E55928255B46">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 12:25:40 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="C17F7C01-C7D3-FA85-5995-55F14E1308E3">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 12:25:40 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="2BA23A55-FB84-0543-2A03-A6773021F1EC">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 12:26:37 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="AF052525-C9FB-57FE-532D-48C7CF794D5D">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 12:27:02 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="role_id" id="BC37C2EB-9FA6-33FC-5F50-1277F0FDE65E">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 12:30:53 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52E98D67-76D6-F2D1-DBC5-5E8ECA35858D" referredColumn="6D7DEDC5-E782-6DD4-504D-CE9F24921FB9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78E9FBAB-8372-4CBC-9D0F-5C922764197F" name="Users_PK">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 12:25:40 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F7E3AB9-26FF-8913-F9A8-E55928255B46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="039F80FA-DBD4-2A9C-7188-0A4834431D3F" name="Users_Roles_FK">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 13:20:19 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC37C2EB-9FA6-33FC-5F50-1277F0FDE65E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

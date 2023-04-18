@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8050FC4-6977-0182-669F-9AF1977736FB" name="Roles">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 12:31:40 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="6D7DEDC5-E782-6DD4-504D-CE9F24921FB9">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 12:32:24 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="role" id="C69BFA49-B09A-1116-3F08-5B45D141FA1B">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 12:32:24 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C54AB44-7496-B8D3-6106-82E72DD85234" name="Roles_PK">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 12:35:12 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D7DEDC5-E782-6DD4-504D-CE9F24921FB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

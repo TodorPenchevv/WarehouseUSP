@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="014165C9-0A01-B3FC-B37F-57ACD852A704" name="Users">
+<createdBy>Glvatarq</createdBy>
+<createdTime>2022-10-18 12:20:56 UTC</createdTime>
+<ownerDesignName>modelche</ownerDesignName>
+<engineerTo>
+<item key="52AB9FBB-573B-AEE6-20E4-939FC1D532AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>
