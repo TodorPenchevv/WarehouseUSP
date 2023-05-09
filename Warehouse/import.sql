@@ -1,0 +1,5 @@
+insert into ROLES (id, role) values (1, "OPERATOR")
+insert into ROLES (id, role) values (2, "MANAGER")
+insert into TRANSACTIONS (id, 'transaction') values (1, "SALE")
+insert into TRANSACTIONS (id, 'transaction') values (2, "PURCHASE")
+insert into USERS (name, username, password, role_id) values ("Admin", "admin", "Admin123", 2)
